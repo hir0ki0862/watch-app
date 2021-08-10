@@ -1,26 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Watch class="watch"></Watch>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Watch from '@/components/Watch';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Watch
   }
 }
 </script>
 
+<style scoped>
+.watch {
+  width: 80vw;
+  max-width: 700px;
+  margin: 30px auto;
+}
+</style>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 </style>
