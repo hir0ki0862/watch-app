@@ -58,7 +58,7 @@ export default {
 <style scoped>
 .container {
   padding: 2%;
-  background-color: #415e3a;
+  background-color: #468536;
 }
 
 .date {
@@ -90,7 +90,7 @@ export default {
   font-size: 3rem;
   line-height: 1;
   color: #ffffff;
-  background-color: #b84848;
+  background-color: #a23e3e;
 }
 
 .time-item::before {
