@@ -11,28 +11,28 @@ export default {
   components: {
     Watch
   }
-}
+};
 </script>
 
 <style scoped>
-.watch {
-  width: 80vw;
-  max-width: 700px;
-  margin: 30px auto;
-}
+  .watch {
+    width: 80vw;
+    max-width: 700px;
+    margin: 30px auto;
+  }
 </style>
 
 <style>
-html {
-  width: 100%;
-  font-size: 62.5%;
-}
+  html {
+    width: 100%;
+    font-size: 62.5%;
+  }
 
-body {
-  margin: 0;
-}
+  body {
+    margin: 0;
+  }
 
-p {
-  margin: 0;
-}
+  p {
+    margin: 0;
+  }
 </style>
