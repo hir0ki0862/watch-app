@@ -12,8 +12,8 @@
 </template>
 
 <script>
-const zeroPadding = (num, digit) => {
-  return (Array(digit).join('0') + num).slice(-digit);
+const zeroPadding = (num, length) => {
+  return (Array(length).join('0') + num).slice(-length);
 };
 
 export default {
@@ -31,7 +31,7 @@ export default {
       return zeroPadding(this.date.getMonth() + 1, 2);
     },
     day() {
-      return zeroPadding(this.date.getDay(), 2);
+      return zeroPadding(this.date.getDate(), 2);
     },
     hours() {
       return zeroPadding(this.date.getHours(), 2);
