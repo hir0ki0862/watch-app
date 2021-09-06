@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Snow/>
     <div class="container">
       <p class="date">{{ year }}/{{ month }}/{{ day }}</p>
       <div class="time">
@@ -12,12 +13,17 @@
 </template>
 
 <script>
+import Snow from 'vue-niege'
+
 const zeroPadding = (num, length) => {
   return (Array(length).join('0') + num).slice(-length);
 };
 
 export default {
   name: 'Watch',
+  components: {
+    Snow
+  },
   data() {
     return {
       date: new Date()
